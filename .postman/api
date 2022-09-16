@@ -1,14 +1,17 @@
-id = 73ed7f6c-224e-4bb3-aae3-c594504d34e0
+id = bf354409-eddd-499c-a3fb-6a09c15faf3f
 
 [relations]
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"23257689-1af81398-7102-4d31-8cec-86673a84a3f8","path":"[CLI Testing] PokeAPI Collection.json","metaData":{}}
+files[] = {"id":"23257689-79bb8dab-9516-45d4-bdcb-c22557a627f8","path":"Collection with a long long long long long long long long long long long nameeee!.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index Copy.yaml","metaData":{}}
 files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]

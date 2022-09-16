@@ -1,0 +1,181 @@
+{
+	"info": {
+		"_postman_id": "1af81398-7102-4d31-8cec-86673a84a3f8",
+		"name": "[CLI Testing] PokeAPI Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "23257689-1af81398-7102-4d31-8cec-86673a84a3f8"
+	},
+	"item": [
+		{
+			"name": "Feature set",
+			"item": [
+				{
+					"name": "Berries",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8db13f81-7a72-4421-85e5-8b34d45f781a",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"pm.test(\"Response time is less than 200ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "ac2187ee-ba6c-4742-8385-5359b08ae0e2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/berry/persim",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"berry",
+								"persim"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Characteristics",
+					"id": "52e1e225-d99c-4ff7-b5c1-d386cce022db",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/characteristic/6",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"characteristic",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "5c4a9a52-e3d0-47ba-8fea-2adc90c7cc99"
+		},
+		{
+			"name": "Charmander",
+			"id": "4ef13966-703b-4217-9a1c-f8cb2d6737bd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/evolution-chain/2",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"evolution-chain",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pokemon",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "722c8900-8d97-4de7-ae8e-fde76e7f9518",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "dc834ffb-3058-4508-850a-ae6668e2f07f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/zapdos",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"zapdos"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "44ff2714-6684-4e95-94b2-0b07b74fea96",
+					"name": "Pokexample",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://pokeapi.co/api/v2/pokemon/zapdos",
+							"protocol": "https",
+							"host": [
+								"pokeapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v2",
+								"pokemon",
+								"zapdos"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
