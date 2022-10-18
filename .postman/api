@@ -1,11 +1,14 @@
-id = bf354409-eddd-499c-a3fb-6a09c15faf3f
+id = ad0aca49-e8f7-40f1-a348-b96719895850
 
 [relations]
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"23257689-1af81398-7102-4d31-8cec-86673a84a3f8","path":"[CLI Testing] PokeAPI Collection.json","metaData":{}}
-files[] = {"id":"23257689-79bb8dab-9516-45d4-bdcb-c22557a627f8","path":"Collection with a long long long long long long long long long long long nameeee!.json","metaData":{}}
+files[] = {"id":"539229-713c74ab-e620-426f-9a06-63b5a6e5d628","path":"[CLI Testing] PokeAPI Collection.json","metaData":{}}
+files[] = {"id":"539229-9969899a-8a68-4986-87c2-95256a7af929","path":"BookinBug API Collection.json","metaData":{}}
+files[] = {"id":"539229-e7dd976a-2a87-4cae-b171-f5d9b8aad002","path":"Collection with a long long long long long long long long long long long nameeee!.json","metaData":{}}
+files[] = {"id":"539229-640349ba-798f-4697-8a23-335b0370a1d1","path":"Sapna's 1st collection sakjgfbwekbfkwabgflSHNelcfhwlehvlwEhc.json","metaData":{}}
+files[] = {"id":"539229-a484b3d3-240e-485e-8aac-af84a668ed67","path":"Testing.json","metaData":{}}
 
 [relations.collections.metaData]
 
@@ -16,3 +19,4 @@ files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
+rootFiles[] = index.yaml

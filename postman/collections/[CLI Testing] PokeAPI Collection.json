@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "1af81398-7102-4d31-8cec-86673a84a3f8",
+		"_postman_id": "713c74ab-e620-426f-9a06-63b5a6e5d628",
 		"name": "[CLI Testing] PokeAPI Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "23257689-1af81398-7102-4d31-8cec-86673a84a3f8"
+		"_uid": "539229-713c74ab-e620-426f-9a06-63b5a6e5d628"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "8db13f81-7a72-4421-85e5-8b34d45f781a",
+								"id": "ee61b615-0ca8-4d19-a168-abfb3d0e0d76",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -28,7 +28,7 @@
 							}
 						}
 					],
-					"id": "ac2187ee-ba6c-4742-8385-5359b08ae0e2",
+					"id": "98089ace-e537-4b6c-81d3-2a9591707ecc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -54,7 +54,7 @@
 				},
 				{
 					"name": "Characteristics",
-					"id": "52e1e225-d99c-4ff7-b5c1-d386cce022db",
+					"id": "15880a5c-6b92-4127-86c8-39690ae3f762",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -79,11 +79,11 @@
 					"response": []
 				}
 			],
-			"id": "5c4a9a52-e3d0-47ba-8fea-2adc90c7cc99"
+			"id": "bb01692b-5c5e-4f2f-804b-6867a924353a"
 		},
 		{
 			"name": "Charmander",
-			"id": "4ef13966-703b-4217-9a1c-f8cb2d6737bd",
+			"id": "e45b711a-5932-4523-a0af-77ab39a0cb9d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -113,7 +113,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "722c8900-8d97-4de7-ae8e-fde76e7f9518",
+						"id": "e3e62699-51c1-4f12-96c2-733530a66d78",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -126,7 +126,7 @@
 					}
 				}
 			],
-			"id": "dc834ffb-3058-4508-850a-ae6668e2f07f",
+			"id": "62d406ab-a5af-4749-a942-0fd87d5a95fb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -150,7 +150,7 @@
 			},
 			"response": [
 				{
-					"id": "44ff2714-6684-4e95-94b2-0b07b74fea96",
+					"id": "b97a0c4a-3d13-4148-99d2-a62746a82eb0",
 					"name": "Pokexample",
 					"originalRequest": {
 						"method": "GET",
@@ -170,7 +170,8 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
+					"_postman_previewlanguage": "Text",
+					"_postman_previewtype": "html",
 					"header": null,
 					"cookie": [],
 					"body": null
