@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "640349ba-798f-4697-8a23-335b0370a1d1",
+		"_postman_id": "0d5fcd82-f967-4fb8-b419-078100e85e26",
 		"name": "Sapna's 1st collection sakjgfbwekbfkwabgflSHNelcfhwlehvlwEhc",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "539229-640349ba-798f-4697-8a23-335b0370a1d1"
+		"_uid": "886086-0d5fcd82-f967-4fb8-b419-078100e85e26"
 	},
 	"item": [
 		{
 			"name": "Sample endpoint: Returns details about a particular user",
-			"id": "9101db05-3266-4916-87f8-37b7806a07f1",
+			"id": "c89da736-27c2-4073-b57c-e8c6a1cb8a71",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -34,7 +34,7 @@
 			},
 			"response": [
 				{
-					"id": "157fb3db-da04-4ffa-8b30-d4e6269c4ddf",
+					"id": "84d304ce-700e-4777-9f5e-1c5ebe2df4dd",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -59,6 +59,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -75,7 +76,7 @@
 					"body": "{\n \"id\": -48313937,\n \"name\": \"dolor consequat in elit\",\n \"tag\": \"non aliqua sunt\"\n}"
 				},
 				{
-					"id": "18b7ef9d-e14e-470c-a8ce-a15bc5611dd2",
+					"id": "72d15b0b-cb9e-4bb3-a3ad-f7fef3a9588f",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -100,6 +101,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",

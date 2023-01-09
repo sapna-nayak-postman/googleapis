@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "a484b3d3-240e-485e-8aac-af84a668ed67",
+		"_postman_id": "df74fad3-b77f-4649-91f8-19bed3839c18",
 		"name": "Testing",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "539229-a484b3d3-240e-485e-8aac-af84a668ed67"
+		"_uid": "886086-df74fad3-b77f-4649-91f8-19bed3839c18"
 	},
 	"item": [
 		{
 			"name": "Sample endpoint: Returns details about a particular user",
-			"id": "6a292085-20d5-48fa-995e-9d79722715ff",
+			"id": "b035c90b-91c8-428d-b959-6d35e11e4d64",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -34,7 +34,7 @@
 			},
 			"response": [
 				{
-					"id": "6eba5629-5d47-48eb-be31-083454b2a10c",
+					"id": "de5cac28-c77c-4460-b52c-ea6e3241182f",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -59,6 +59,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -75,7 +76,7 @@
 					"body": "{\n \"id\": -13629354,\n \"name\": \"aliqua laboris\",\n \"tag\": \"qui dolor nisi pariatur deserunt\"\n}"
 				},
 				{
-					"id": "e6b483e3-1455-4861-b38d-5884fe28c3c4",
+					"id": "101fdc89-d1e6-4574-966d-901a8c3dcc49",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -100,6 +101,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",

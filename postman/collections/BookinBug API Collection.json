@@ -1,16 +1,16 @@
 {
 	"info": {
-		"_postman_id": "9969899a-8a68-4986-87c2-95256a7af929",
+		"_postman_id": "a373f1fa-0dd1-4a7f-b44d-405f4c13b4b3",
 		"name": "BookinBug API Collection",
 		"description": "BookingBug API Collection\n\n\nrrrrrr\nBookingBug API Collection\n\n\nrrrrrrBookingBug API Collection\n\n\nrrrrrr\nBookingBug API Collection\n\n\nrrrrrrBookingBug API Collection\n\n\nrrrrrr\nBookingBug API Collection\n\n\nrrrrrrBookingBug API Collection\n\n\nrrrrrr\nBookingBug API Collection\n\n\nrrrrrrBookingBug API Collection\n\n\nrrrrrr\nBookingBug API Collection\n\n\nrrrrrrBookingBug API Collection\n\n\nrrrrrr\nBookingBug API Collection\n\n\nrrrrrrBookingBug API Collection\n\n\nrrrrrr\nBookingBug API Collection\n\n\nrrrrrrBookingBug API Collection\n\n\nrrrrrr\nBookingBug API Collection\n\n\nrrrrrr",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "539229-9969899a-8a68-4986-87c2-95256a7af929"
+		"_uid": "886086-a373f1fa-0dd1-4a7f-b44d-405f4c13b4b3"
 	},
 	"item": [
 		{
 			"name": "New Folder",
 			"item": [],
-			"id": "66661c24-6911-4108-817c-d0eb8e1db1e3"
+			"id": "154efb29-d3ab-4307-a409-2586b37fad34"
 		},
 		{
 			"name": "https://eu1.bookingbug.com/api/v1/login",
@@ -18,7 +18,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "9ed63014-a94c-4328-b47b-0f46a64276b6",
+						"id": "817890cd-173a-4f7d-825c-57e38d2b067c",
 						"exec": [
 							"",
 							""
@@ -27,7 +27,7 @@
 					}
 				}
 			],
-			"id": "9454f089-a2d4-44b6-9d7b-9809af250b1f",
+			"id": "cf1ac85a-5623-4ea5-b5d0-72d1df1cc2e0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},

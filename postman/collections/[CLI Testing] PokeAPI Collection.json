@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "713c74ab-e620-426f-9a06-63b5a6e5d628",
+		"_postman_id": "e85d6b49-f2dd-454d-b29f-5b636526e050",
 		"name": "[CLI Testing] PokeAPI Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "539229-713c74ab-e620-426f-9a06-63b5a6e5d628"
+		"_uid": "886086-e85d6b49-f2dd-454d-b29f-5b636526e050"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "ee61b615-0ca8-4d19-a168-abfb3d0e0d76",
+								"id": "5bb3a355-fb16-48be-a6b8-70d4c3c90ca2",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -28,7 +28,7 @@
 							}
 						}
 					],
-					"id": "98089ace-e537-4b6c-81d3-2a9591707ecc",
+					"id": "dc6d0d25-1979-4c2f-9cb3-70a714660253",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -54,7 +54,7 @@
 				},
 				{
 					"name": "Characteristics",
-					"id": "15880a5c-6b92-4127-86c8-39690ae3f762",
+					"id": "e176a0c3-c96f-4050-8b2e-b9a08c4fb81f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -79,11 +79,11 @@
 					"response": []
 				}
 			],
-			"id": "bb01692b-5c5e-4f2f-804b-6867a924353a"
+			"id": "a4ee2d81-bb77-4a7d-a7ab-10feb66e884a"
 		},
 		{
 			"name": "Charmander",
-			"id": "e45b711a-5932-4523-a0af-77ab39a0cb9d",
+			"id": "f6f9a0f8-6d73-4377-ac1a-f284d8722452",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -113,7 +113,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "e3e62699-51c1-4f12-96c2-733530a66d78",
+						"id": "4e05e640-45cb-4b1d-a540-b9a97113cd22",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -126,7 +126,7 @@
 					}
 				}
 			],
-			"id": "62d406ab-a5af-4749-a942-0fd87d5a95fb",
+			"id": "a19c5397-5be8-4489-81b7-b6296788d052",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -150,7 +150,7 @@
 			},
 			"response": [
 				{
-					"id": "b97a0c4a-3d13-4148-99d2-a62746a82eb0",
+					"id": "c39d340d-e40b-499c-913d-1a9ae8c89939",
 					"name": "Pokexample",
 					"originalRequest": {
 						"method": "GET",
